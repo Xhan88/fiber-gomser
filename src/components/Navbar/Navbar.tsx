@@ -49,7 +49,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#inicio" className="flex shrink-0 items-center">
           <img
-            src="public/iconF/logo.png"
+            src="/iconF/logo.png"
             alt="Fiber Gomser"
             className="h-20 w-auto object-contain"
           />
