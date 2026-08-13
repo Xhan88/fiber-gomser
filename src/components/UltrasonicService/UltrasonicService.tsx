@@ -1,13 +1,11 @@
 import React from 'react';
 
-// Interfaces para tipar las propiedades si decides pasarlas dinámicamente en el futuro
 interface Feature {
   icon: React.ReactNode;
   text: string;
 }
 
 const UltrasonicServiceSection: React.FC = () => {
-  // Datos de las características con iconos SVG aproximados basados en la imagen
   const features: Feature[] = [
     {
       icon: (
@@ -57,7 +55,7 @@ const UltrasonicServiceSection: React.FC = () => {
           strokeLinejoin="round"
         >
           <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-          <path d="M19.4 11a1.65 1.65 0 0 0 .33 1.82l.06.06a1.65 1.65 0 0 1 0 2.33l-.06.06a1.65 1.65 0 0 0-.33 1.82v.09a1.65 1.65 0 0 1-1.65 1.65h-.09a1.65 1.65 0 0 0-1.82.33l-.06.06a1.65 1.65 0 0 1-2.33 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33h-.09a1.65 1.65 0 0 1-1.65-1.65v-.09a1.65 1.65 0 0 0-.33-1.82l-.06-.06a1.65 1.65 0 0 1 0-2.33l$.06-.06a1.65 1.65 0 0 0 .33-1.82v-.09A1.65 1.65 0 0 1 4.65 5h.09a1.65 1.65 0 0 0 1.82-.33l.06-.06a1.65 1.65 0 0 1 2.33 0l.06.06a1.65 1.65 0 0 0 1.82.33h.09A1.65 1.65 0 0 1 12 6.65v.09" />
+          <path d="M19.4 11a1.65 1.65 0 0 0 .33 1.82l.06.06a1.65 1.65 0 0 1 0 2.33l-.06.06a1.65 1.65 0 0 0-.33 1.82v.09a1.65 1.65 0 0 1-1.65 1.65h-.09a1.65 1.65 0 0 0-1.82.33l-.06.06a1.65 1.65 0 0 1-2.33 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33h-.09a1.65 1.65 0 0 1-1.65-1.65v-.09a1.65 1.65 0 0 0-.33-1.82l-.06-.06a1.65 1.65 0 0 1 0-2.33l.06-.06a1.65 1.65 0 0 0 .33-1.82v-.09A1.65 1.65 0 0 1 4.65 5h.09a1.65 1.65 0 0 0 1.82-.33l.06-.06a1.65 1.65 0 0 1 2.33 0l.06.06a1.65 1.65 0 0 0 1.82.33h.09A1.65 1.65 0 0 1 12 6.65v.09" />
         </svg>
       ),
       text: 'Mayor durabilidad y confort',
@@ -65,48 +63,45 @@ const UltrasonicServiceSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-white py-16 px-4 md:px-8">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section className="bg-white py-12 px-4 md:px-8">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
-        {/* Columna de Texto (Izquierda) */}
-        <div className="flex flex-col space-y-6">
+        {/* Columna de Texto */}
+        <div className="flex flex-col space-y-5">
           <span className="text-blue-700 font-bold uppercase tracking-wider text-sm">
             SERVICIO ULTRASÓNICO
           </span>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-950 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-950 leading-tight">
             Tecnología que une resistencia y calidad
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed max-w-2xl">
+          <p className="text-gray-700 text-base leading-relaxed max-w-2xl">
             Contamos con maquinaria de pun-sonic o ultrasónico para ofrecer uniones fuertes, limpias y duraderas en cubre colchones, cubre salas y más productos textiles.
           </p>
 
-          {/* Grid de Características */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
             {features.map((feature, index) => (
-              <div key={index} className="flex items-center space-x-4">
+              <div key={index} className="flex items-center space-x-3">
                 <div className="flex-shrink-0 p-2 bg-blue-50 rounded-lg">
                   {feature.icon}
                 </div>
-                <p className="text-gray-900 font-medium text-sm leading-snug">
+                <p className="text-gray-900 font-medium text-xs leading-snug">
                   {feature.text}
                 </p>
               </div>
             ))}
           </div>
 
-          {/* Botón de Acción */}
-          <div className="pt-8">
+          <div className="pt-4">
             <a
               href="#"
-              className="inline-flex items-center space-x-3 px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ease-in-out uppercase text-sm tracking-wide"
+              className="inline-flex items-center space-x-3 px-6 py-3.5 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ease-in-out uppercase text-xs tracking-wide"
             >
               <span>CONOCE MÁS DEL SERVICIO</span>
               <svg
-                className="w-5 h-5"
+                className="w-4 h-4"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   strokeLinecap="round"
@@ -119,29 +114,33 @@ const UltrasonicServiceSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Columna de Imágenes (Derecha) */}
-        <div className="grid grid-cols-2 gap-4">
-          {/* Imagen Principal (Izquierda en el grid de imágenes) */}
-          <div className="col-span-1">
+        {/* Columna de Imágenes */}
+        <div className="grid grid-cols-2 gap-3 w-full">
+          {/* Imagen Principal */}
+          <div className="col-span-1 aspect-square w-full">
             <img
-              src="public/images/services/ultrasonico-principal.png" // Reemplaza con la ruta real a tu carpeta de imágenes
+              src="public/images/services/ultrasonico-principal.png"
               alt="Maquinaria ultrasónica textil principal"
-              className="w-full h-full object-cover rounded-2xl shadow-lg aspect-[4/5]"
+              className="w-full h-full object-cover rounded-xl shadow-md"
             />
           </div>
           
-          {/* Columna Derecha con dos imágenes */}
-          <div className="col-span-1 grid grid-rows-2 gap-4">
-            <img
-              src="public/images/services/capitonado-textil.jpg" // Reemplaza con la ruta real
-              alt="Detalle de capitonado textil 1"
-              className="w-full h-full object-cover rounded-2xl shadow-md aspect-square"
-            />
-            <img
-              src="public/images/services/capitonado2.jpg" // Reemplaza con la ruta real
-              alt="Detalle de capitonado textil 2 con maquinaria"
-              className="w-full h-full object-cover rounded-2xl shadow-md aspect-square"
-            />
+          {/* Columna Derecha */}
+          <div className="col-span-1 grid grid-rows-2 gap-3 aspect-square w-full">
+            <div className="min-h-0 relative w-full h-full">
+              <img
+                src="public/images/services/capitonado-textil.jpg"
+                alt="Detalle de capitonado textil 1"
+                className="w-full h-full object-cover rounded-xl shadow-sm absolute inset-0"
+              />
+            </div>
+            <div className="min-h-0 relative w-full h-full">
+              <img
+                src="public/images/services/capitonado2.jpg"
+                alt="Detalle de capitonado textil 2"
+                className="w-full h-full object-cover rounded-xl shadow-sm absolute inset-0"
+              />
+            </div>
           </div>
         </div>
 
