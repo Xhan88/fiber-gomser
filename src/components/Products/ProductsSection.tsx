@@ -7,7 +7,7 @@ import ProductCard, {
       title: "Fibras para relleno",
       description:
         "Fibra siliconizada, Micro Gel y más. Ideales para almohadas, peluches, cojines y más.",
-      image: "public/images/products/fibras-relleno.jpg",
+      image: "/images/products/fibras-relleno.jpg",
       href: "#fibras",
     },
     {
