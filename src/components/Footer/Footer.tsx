@@ -18,7 +18,7 @@ import {
             {/* Brand */}
             <div>
               <img
-                src="public/images/logo-fiber-gomser.png"
+                src="/iconF/logoRec.png"
                 alt="Fiber Gomser"
                 className="h-16 w-auto object-contain"
               />
