@@ -119,7 +119,7 @@ const UltrasonicServiceSection: React.FC = () => {
           {/* Imagen Principal */}
           <div className="col-span-1 aspect-square w-full">
             <img
-              src="public/images/services/ultrasonico-principal.png"
+              src="/images/services/ultrasonico-principal.png"
               alt="Maquinaria ultrasónica textil principal"
               className="w-full h-full object-cover rounded-xl shadow-md"
             />
@@ -129,14 +129,14 @@ const UltrasonicServiceSection: React.FC = () => {
           <div className="col-span-1 grid grid-rows-2 gap-3 aspect-square w-full">
             <div className="min-h-0 relative w-full h-full">
               <img
-                src="public/images/services/capitonado-textil.jpg"
+                src="/images/services/capitonado-textil.jpg"
                 alt="Detalle de capitonado textil 1"
                 className="w-full h-full object-cover rounded-xl shadow-sm absolute inset-0"
               />
             </div>
             <div className="min-h-0 relative w-full h-full">
               <img
-                src="public/images/services/capitonado2.jpg"
+                src="/images/services/capitonado2.jpg"
                 alt="Detalle de capitonado textil 2"
                 className="w-full h-full object-cover rounded-xl shadow-sm absolute inset-0"
               />

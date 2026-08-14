@@ -9,7 +9,7 @@ const QuoteFormSection = () => {
       {/* Fondo decorativo derecho */}
       <div className="absolute inset-y-0 right-0 hidden w-[34%] lg:block">
         <img
-          src="public/images/contact/fibras-contacto.png"
+          src="/images/products/fibras-relleno.jpg"
           alt=""
           className="h-full w-full object-cover object-left"
         />

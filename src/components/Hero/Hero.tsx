@@ -6,7 +6,7 @@ const Hero = () => {
       id="inicio"
       className="relative min-h-[430px] overflow-hidden bg-cover bg-center lg:min-h-[520px]"
       style={{
-        backgroundImage: "url('public/images/heroempresa.png')",
+        backgroundImage: "url('/images/heroempresa.png')",
       }}
     >
       {/* Overlay */}

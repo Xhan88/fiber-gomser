@@ -14,21 +14,21 @@ import ProductCard, {
       title: "Guata laminada",
       description:
         "Guata Delcron laminada en diferentes espesores, medidas y densidades.",
-      image: "public/images/products/guata-laminada.webp",
+      image: "/images/products/guata-laminada.webp",
       href: "#guata",
     },
     {
       title: "Geotextiles",
       description:
         "Soluciones para construcción, drenaje, separación y protección de suelos.",
-      image: "public/images/products/geotextiles.jpg",
+      image: "/images/products/geotextiles.jpg",
       href: "#geotextiles",
     },
     {
       title: "Capitonados",
       description:
         "Capitonados decorativos, hoteleros y para tapicería. Gran variedad de diseños, materiales y colores.",
-      image: "public/images/products/capitonados.jpg",
+      image: "/images/products/capitonados.jpg",
       href: "#capitonados",
       linkText: "Ver catálogo",
     },
@@ -36,7 +36,7 @@ import ProductCard, {
       title: "Servicio ultrasónico",
       description:
         "Pun-sonic ultrasónico para cubre colchones, cubre salas y diferentes aplicaciones.",
-      image: "public/images/products/ser-ultrasonico.jpeg",
+      image: "/images/products/ser-ultrasonico.jpeg",
       href: "#ultrasonico",
       linkText: "Ver servicios",
     },
@@ -44,7 +44,7 @@ import ProductCard, {
       title: "Guata para acolchado",
       description:
         "Guata para acolchado de colchones, cubrecolchones y productos textiles en general.",
-      image: "public/images/products/guata-acolchado.jpg",
+      image: "/images/products/guata-acolchado.jpg",
       href: "#acolchado",
     },
   ];

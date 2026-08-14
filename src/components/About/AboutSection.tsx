@@ -65,7 +65,7 @@ const AboutSection = () => {
         {/* Center image */}
         <div className="h-[320px] overflow-hidden lg:h-full">
           <img
-            src="public/images/about/fiber-gomser-industria.jpg"
+            src="/images/about/fiber-gomser-industria.jpg"
             alt="Instalaciones y producción de Fiber Gomser"
             className="h-full w-full object-cover"
           />

@@ -14,22 +14,22 @@ const galleryImages: GalleryImage[] = [
   },
   {
     id: 2,
-    src: "public/images/gallery/planta2.jpg",
+    src: "/images/gallery/planta2.jpg",
     alt: "Área de producción de Fiber Gomser",
   },
   {
     id: 3,
-    src: "public/images/gallery/planta3.jpg",
+    src: "/images/gallery/planta3.jpg",
     alt: "Rollos y materiales textiles en planta",
   },
   {
     id: 4,
-    src: "public/images/gallery/planta4.jpg",
+    src: "/images/gallery/planta4.jpg",
     alt: "Detalle de capitonado textil",
   },
   {
     id: 5,
-    src: "public/images/gallery/planta5.jpg",
+    src: "/images/gallery/planta5.jpg",
     alt: "Carga y distribución de producto",
   },
 ];
