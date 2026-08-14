@@ -1,10 +1,13 @@
 import {
-    Facebook,
-    Instagram,
     Mail,
     MapPin,
     Phone,
   } from "lucide-react";
+  
+  import {
+    FaFacebookF,
+    FaWhatsapp,
+  } from "react-icons/fa";
   
   const Footer = () => {
     return (
@@ -26,22 +29,28 @@ import {
               </p>
   
               <div className="mt-5 flex items-center gap-3">
-                <a
-                  href="#"
-                  aria-label="Facebook"
-                  className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-600 transition-colors duration-300 hover:bg-blue-700"
-                >
-                  <Facebook size={18} />
-                </a>
-  
-                <a
-                  href="#"
-                  aria-label="Instagram"
-                  className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-600 transition-colors duration-300 hover:bg-blue-700"
-                >
-                  <Instagram size={18} />
-                </a>
-              </div>
+  {/* Facebook */}
+  <a
+    href="https://www.facebook.com/fiber.gomser.3"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook de Fiber Gomser"
+    className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-600 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700"
+  >
+    <FaFacebookF size={17} />
+  </a>
+
+  {/* WhatsApp */}
+  <a
+    href="#"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="WhatsApp de Fiber Gomser"
+    className="flex h-9 w-9 items-center justify-center rounded-full bg-blue-600 text-white transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700"
+  >
+    <FaWhatsapp size={19} />
+  </a>
+</div>
             </div>
   
             {/* Links */}
