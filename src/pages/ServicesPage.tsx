@@ -1,9 +1,12 @@
+import ServicesHero from "../components/ServicesPage/ServicesHero"
+import UltrasonicHighlight from "../components/ServicesPage/UltrasonicHighlight"
 
 const ServicesPage = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <ServicesHero />
+      <UltrasonicHighlight />
+    </>
   )
 }
 
