@@ -32,7 +32,7 @@ const AboutSection = () => {
     >
       <div className="mx-auto grid max-w-[1440px] grid-cols-1 lg:min-h-[390px] lg:grid-cols-[44%_32%_24%]">
 
-        {/* Left content */}
+        
         <div className="flex items-center px-6 py-14 lg:px-12 xl:px-16">
           <div className="max-w-[560px]">
             <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-blue-600">
@@ -62,7 +62,6 @@ const AboutSection = () => {
           </div>
         </div>
 
-        {/* Center image */}
         <div className="h-[320px] overflow-hidden lg:h-full">
           <img
             src="/images/about/fiber-gomser-industria.jpg"
@@ -71,7 +70,6 @@ const AboutSection = () => {
           />
         </div>
 
-        {/* Stats */}
         <div className="flex items-center px-6 py-10 lg:px-10">
           <div className="grid w-full grid-cols-2 gap-8 lg:grid-cols-1 lg:gap-6">
             {stats.map((stat) => (
