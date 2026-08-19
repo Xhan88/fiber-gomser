@@ -57,21 +57,21 @@ import ProductCard, {
       >
         <div className="mx-auto max-w-[1440px]">
           <div className="mx-auto mb-10 max-w-3xl text-center">
-            <span className="text-xs font-bold uppercase tracking-[0.15em] text-blue-600">
+            <span data-aos="fade-up" className="text-xs font-bold uppercase tracking-[0.15em] text-blue-600">
               Nuestros productos
             </span>
   
-            <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 md:text-4xl">
+            <h2 data-aos="fade-up" className="mt-3 text-3xl font-extrabold tracking-tight text-slate-950 md:text-4xl">
               Variedad, calidad y soluciones para cada necesidad
             </h2>
   
-            <p className="mt-3 text-sm leading-6 text-slate-600 md:text-base">
+            <p data-aos="fade-up" className="mt-3 text-sm leading-6 text-slate-600 md:text-base">
               Contamos con una amplia gama de productos textiles para múltiples
               aplicaciones.
             </p>
           </div>
   
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+          <div data-aos="fade-right" className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
             {products.map((product) => (
               <ProductCard
                 key={product.title}

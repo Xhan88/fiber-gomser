@@ -63,10 +63,10 @@ const UltrasonicServiceSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-white py-12 px-4 md:px-8">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section  className="bg-white py-12 px-4 md:px-8">
+      <div  className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
-        <div className="flex flex-col space-y-5">
+        <div data-aos="fade-right" className="flex flex-col space-y-5">
           <span className="text-blue-700 font-bold uppercase tracking-wider text-sm">
             SERVICIO ULTRASÓNICO
           </span>
@@ -114,7 +114,7 @@ const UltrasonicServiceSection: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-2 gap-3 w-full">
-          <div className="col-span-1 aspect-square w-full">
+          <div data-aos="zoom-in" className="col-span-1 aspect-square w-full">
             <img
               src="/images/services/ultrasonico-principal.png"
               alt="Maquinaria ultrasónica textil principal"

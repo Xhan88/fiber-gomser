@@ -5,6 +5,7 @@ const QuoteFormSection = () => {
     <section
       id="contacto"
       className="relative overflow-hidden bg-[#061b31]"
+      data-aos="fade-up"
     >
       <div className="absolute inset-y-0 right-0 hidden w-[34%] lg:block">
         <img

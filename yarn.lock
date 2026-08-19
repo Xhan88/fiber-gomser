@@ -482,6 +482,11 @@
   dependencies:
     tslib "^2.4.0"
 
+"@types/aos@^3.0.8":
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/@types/aos/-/aos-3.0.8.tgz#d98535488fdc08d9afdd5c8581c26eb6ae1612fb"
+  integrity sha512-Wydvt0OnVYO5YZxroBOYITIkAKtKmni9GUQRKuWMK3doplBSaHU11HIIweGwqF/ycmbHQGoLUQzuXFRVY+Ougg==
+
 "@types/esrecurse@^4.3.1":
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@types/esrecurse/-/esrecurse-4.3.1.tgz#6f636af962fbe6191b830bd676ba5986926bccec"

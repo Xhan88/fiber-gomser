@@ -49,7 +49,7 @@ import {
   const ProcessSection = () => {
     return (
       <section className="bg-white px-6 py-14 lg:px-10 lg:py-16">
-        <div className="mx-auto max-w-[1440px]">
+        <div data-aos="fade-up" className="mx-auto max-w-[1440px]">
           <div className="mb-12 text-center">
             <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-blue-600">
               ¿Cómo trabajamos?

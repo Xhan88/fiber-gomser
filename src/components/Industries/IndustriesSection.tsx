@@ -63,7 +63,7 @@ import {
         id="industrias"
         className="bg-white px-6 py-12 lg:px-10"
       >
-        <div className="mx-auto max-w-[1440px]">
+        <div data-aos="fade-up" className="mx-auto max-w-[1440px]">
           <div className="mb-9 text-center">
             <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-blue-600">
               Industrias que atendemos

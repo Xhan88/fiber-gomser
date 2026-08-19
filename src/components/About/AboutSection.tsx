@@ -30,7 +30,7 @@ const AboutSection = () => {
       id="nosotros"
       className="bg-[#f7f8fa]"
     >
-      <div className="mx-auto grid max-w-[1440px] grid-cols-1 lg:min-h-[390px] lg:grid-cols-[44%_32%_24%]">
+      <div data-aos="fade-up" className="mx-auto grid max-w-[1440px] grid-cols-1 lg:min-h-[390px] lg:grid-cols-[44%_32%_24%]">
 
         
         <div className="flex items-center px-6 py-14 lg:px-12 xl:px-16">
