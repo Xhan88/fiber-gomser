@@ -57,7 +57,6 @@ import {
       <section className="bg-[#f5f7fc] px-6 py-16 lg:px-10 lg:py-20">
         <div className="mx-auto max-w-[1320px]">
           
-          {/* Heading */}
           <div className="mb-12 text-center">
             <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
               Nuestro proceso
@@ -68,9 +67,7 @@ import {
             </h2>
           </div>
   
-          {/* Desktop */}
           <div className="relative hidden lg:block">
-            {/* Connecting line */}
             <div className="absolute left-[9%] right-[9%] top-[41px] border-t border-dashed border-blue-200" />
   
             <div className="relative z-10 grid grid-cols-5 gap-4">
@@ -82,14 +79,12 @@ import {
                     key={step.id}
                     className="flex flex-col items-center px-4 text-center"
                   >
-                    {/* Icon container */}
                     <div className="relative flex h-[82px] w-[82px] items-center justify-center rounded-full border border-blue-200 bg-[#f5f7fc] text-blue-600">
                       <Icon
                         size={34}
                         strokeWidth={1.5}
                       />
   
-                      {/* Number */}
                       <span className="absolute -left-2 -top-2 flex h-7 w-7 items-center justify-center rounded-full bg-blue-600 text-xs font-bold text-white">
                         {step.id}
                       </span>
@@ -108,7 +103,6 @@ import {
             </div>
           </div>
   
-          {/* Mobile / Tablet */}
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:hidden">
             {processSteps.map((step) => {
               const Icon = step.icon;

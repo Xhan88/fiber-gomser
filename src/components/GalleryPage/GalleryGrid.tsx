@@ -46,7 +46,6 @@ const GalleryGrid = () => {
     <section className="bg-white px-6 py-16 lg:px-10 lg:py-20">
       <div className="mx-auto max-w-[1320px]">
         
-        {/* Heading */}
         <div className="text-center">
           <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
             Nuestra galería
@@ -59,7 +58,6 @@ const GalleryGrid = () => {
           <div className="mx-auto mt-5 h-[2px] w-12 bg-blue-600" />
         </div>
 
-        {/* Filters */}
         <div className="mt-7 flex flex-wrap justify-center gap-3">
           {categories.map((category) => {
             const isActive = activeCategory === category;
@@ -81,7 +79,6 @@ const GalleryGrid = () => {
           })}
         </div>
 
-        {/* Gallery */}
         <div className="mt-10 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
           {visibleGalleryItems.map((item) => (
             <GalleryCard
@@ -91,7 +88,6 @@ const GalleryGrid = () => {
           ))}
         </div>
 
-        {/* Load more */}
         {visibleItems < filteredItems.length && (
           <div className="mt-8 flex justify-center">
             <button

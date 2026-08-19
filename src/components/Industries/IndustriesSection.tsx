@@ -64,7 +64,6 @@ import {
         className="bg-white px-6 py-12 lg:px-10"
       >
         <div className="mx-auto max-w-[1440px]">
-          {/* Heading */}
           <div className="mb-9 text-center">
             <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-blue-600">
               Industrias que atendemos
@@ -75,7 +74,6 @@ import {
             </h2>
           </div>
   
-          {/* Industries */}
           <div className="grid grid-cols-2 border-slate-200 sm:grid-cols-4 lg:grid-cols-8">
             {industries.map((industry, index) => {
               const Icon = industry.icon;

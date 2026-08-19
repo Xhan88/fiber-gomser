@@ -66,7 +66,6 @@ const UltrasonicServiceSection: React.FC = () => {
     <section className="bg-white py-12 px-4 md:px-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
-        {/* Columna de Texto */}
         <div className="flex flex-col space-y-5">
           <span className="text-blue-700 font-bold uppercase tracking-wider text-sm">
             SERVICIO ULTRASÓNICO
@@ -114,9 +113,7 @@ const UltrasonicServiceSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Columna de Imágenes */}
         <div className="grid grid-cols-2 gap-3 w-full">
-          {/* Imagen Principal */}
           <div className="col-span-1 aspect-square w-full">
             <img
               src="/images/services/ultrasonico-principal.png"
@@ -125,7 +122,6 @@ const UltrasonicServiceSection: React.FC = () => {
             />
           </div>
           
-          {/* Columna Derecha */}
           <div className="col-span-1 grid grid-rows-2 gap-3 aspect-square w-full">
             <div className="min-h-0 relative w-full h-full">
               <img

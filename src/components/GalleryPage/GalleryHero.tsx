@@ -4,20 +4,16 @@ import { Link } from "react-router-dom";
 const GalleryHero = () => {
   return (
     <section className="relative min-h-[360px] overflow-hidden">
-      {/* Background image */}
       <img
         src="/images/gallery/planta4.jpg"
         alt="Procesos y maquinaria de Fiber Gomser"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
 
-      {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#021427]/95 via-[#021427]/75 to-[#021427]/15" />
 
-      {/* Content */}
       <div className="relative z-10 mx-auto flex min-h-[360px] max-w-[1440px] items-center px-6 py-14 lg:px-12 xl:px-16">
         <div className="max-w-[670px]">
-          {/* Breadcrumb */}
           <div className="flex items-center gap-3 text-sm font-medium">
             <Link
               to="/"
@@ -37,12 +33,10 @@ const GalleryHero = () => {
             </span>
           </div>
 
-          {/* Label */}
           <span className="mt-8 block text-sm font-bold uppercase tracking-[0.08em] text-blue-500">
             Galería
           </span>
 
-          {/* Title */}
           <h1 className="mt-3 text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-[58px]">
             Conoce nuestro
             <br />
@@ -52,10 +46,8 @@ const GalleryHero = () => {
             </span>
           </h1>
 
-          {/* Decorative line */}
           <div className="mt-5 h-[3px] w-14 bg-blue-500" />
 
-          {/* Description */}
           <p className="mt-6 max-w-[570px] text-sm leading-7 text-white/90 md:text-base">
             Explora nuestros procesos, tecnología y productos desarrollados
             para brindar soluciones textiles de la más alta calidad.

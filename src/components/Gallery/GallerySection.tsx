@@ -41,7 +41,6 @@ const GallerySection = () => {
       className="bg-white px-6 py-14 lg:px-10 lg:py-16"
     >
       <div className="mx-auto max-w-[1440px]">
-        {/* Heading */}
         <div className="mb-8 text-center">
           <span className="text-[11px] font-bold uppercase tracking-[0.14em] text-blue-600">
             Galería
@@ -52,7 +51,6 @@ const GallerySection = () => {
           </h2>
         </div>
 
-        {/* Gallery */}
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5">
           {galleryImages.map((image) => (
             <div
@@ -68,7 +66,6 @@ const GallerySection = () => {
           ))}
         </div>
 
-        {/* CTA */}
         <div className="mt-5 flex justify-center">
           <a
             href="#galeria-completa"

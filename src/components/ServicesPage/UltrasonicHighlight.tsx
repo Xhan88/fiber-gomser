@@ -35,7 +35,6 @@ import {
         <div className="mx-auto max-w-[1320px]">
           <div className="grid overflow-hidden rounded-xl border border-slate-200 bg-white shadow-[0_8px_30px_rgba(15,23,42,0.05)] lg:grid-cols-[50%_50%]">
             
-            {/* Left content */}
             <div className="flex items-center px-7 py-10 lg:px-10 xl:px-12">
               <div className="w-full">
                 <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
@@ -57,7 +56,6 @@ import {
                   ni costuras convencionales.
                 </p>
   
-                {/* Benefits */}
                 <div className="mt-8 grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                   {benefits.map((benefit) => {
                     const Icon = benefit.icon;
@@ -88,7 +86,6 @@ import {
                   })}
                 </div>
   
-                {/* CTA */}
                 <a
                   href="#capacidades"
                   className="mt-8 inline-flex min-h-[46px] items-center gap-3 rounded-sm bg-blue-600 px-6 text-xs font-bold text-white transition-all duration-300 hover:bg-blue-700"
@@ -99,7 +96,6 @@ import {
               </div>
             </div>
   
-            {/* Right image */}
             <div className="h-[340px] overflow-hidden sm:h-[420px] lg:h-auto lg:min-h-[500px]">
               <img
                 src="/images/gallery/planta3.jpg"

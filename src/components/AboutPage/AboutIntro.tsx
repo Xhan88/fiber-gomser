@@ -41,7 +41,6 @@ import {
         <div className="mx-auto max-w-[1320px]">
           <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[45%_55%] lg:gap-12">
             
-            {/* LEFT CONTENT */}
             <div>
               <span className="text-[12px] font-extrabold uppercase tracking-[0.05em] text-blue-600">
                 ¿Quiénes somos?
@@ -64,7 +63,6 @@ import {
               </p>
             </div>
   
-            {/* STATS */}
             <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
               {stats.map((stat) => {
                 const Icon = stat.icon;

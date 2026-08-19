@@ -18,7 +18,6 @@ const ProductCard = ({
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
       
-      {/* Imagen */}
       <div className="h-[190px] shrink-0 overflow-hidden">
         <img
           src={image}
@@ -27,10 +26,8 @@ const ProductCard = ({
         />
       </div>
 
-      {/* Contenido */}
       <div className="flex flex-1 flex-col p-5">
         
-        {/* Información */}
         <div>
           <h3 className="text-lg font-bold leading-tight text-slate-950">
             {title}
@@ -41,7 +38,6 @@ const ProductCard = ({
           </p>
         </div>
 
-        {/* Link siempre abajo */}
         <div className="mt-auto pt-6">
           <a
             href={href}

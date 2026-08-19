@@ -3,7 +3,6 @@ const ContactLocation = () => {
       <section className="bg-white px-6 pb-16 lg:px-10 lg:pb-20">
         <div className="mx-auto max-w-[1320px]">
   
-          {/* Heading */}
           <div>
             <h2 className="text-3xl font-extrabold tracking-tight text-slate-950 md:text-4xl">
               Nuestra ubicación
@@ -17,7 +16,6 @@ const ContactLocation = () => {
             </p>
           </div>
   
-          {/* Google Maps */}
           <div className="mt-8 overflow-hidden rounded-xl border border-slate-200 bg-slate-100 shadow-[0_8px_28px_rgba(15,23,42,0.06)]">
             <iframe
               title="Ubicación de Fiber Gomser"

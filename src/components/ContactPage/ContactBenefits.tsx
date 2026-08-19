@@ -58,7 +58,6 @@ import {
                         : ""
                     }`}
                   >
-                    {/* Icon */}
                     <div className="flex h-14 w-14 shrink-0 items-center justify-center text-blue-600">
                       <Icon
                         size={38}
@@ -66,7 +65,6 @@ import {
                       />
                     </div>
   
-                    {/* Content */}
                     <div>
                       <h3 className="text-sm font-bold text-slate-950">
                         {benefit.title}

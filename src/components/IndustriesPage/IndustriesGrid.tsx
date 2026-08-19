@@ -68,7 +68,6 @@ import {
       <section className="bg-[#fafafa] px-6 py-16 lg:px-10 lg:py-20">
         <div className="mx-auto max-w-[1320px]">
           
-          {/* Heading */}
           <div className="mb-12 text-center">
             <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
               Industrias
@@ -81,7 +80,6 @@ import {
             <div className="mx-auto mt-5 h-[2px] w-12 bg-blue-600" />
           </div>
   
-          {/* Grid */}
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             {industries.map((industry) => (
               <IndustryCard

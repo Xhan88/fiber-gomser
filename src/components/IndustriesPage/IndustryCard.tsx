@@ -16,7 +16,6 @@ const IndustryCard = ({
   return (
     <article className="group grid min-h-[250px] overflow-hidden rounded-lg border border-slate-200 bg-white shadow-[0_5px_18px_rgba(15,23,42,0.05)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(15,23,42,0.10)] sm:grid-cols-[55%_45%]">
       
-      {/* Content */}
       <div className="flex flex-col justify-center px-6 py-7">
         <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
           <Icon
@@ -36,7 +35,6 @@ const IndustryCard = ({
         </p>
       </div>
 
-      {/* Image */}
       <div className="h-[220px] overflow-hidden sm:h-full">
         <img
           src={image}

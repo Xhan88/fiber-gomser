@@ -52,7 +52,6 @@ import {
         <div className="mx-auto max-w-[1320px]">
           <div className="rounded-xl bg-[#f5f7fc] px-6 py-10 lg:px-10 lg:py-12">
             
-            {/* Heading */}
             <div className="text-center">
               <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
                 ¿Por qué elegirnos?
@@ -65,7 +64,6 @@ import {
               <div className="mx-auto mt-5 h-[2px] w-12 bg-blue-600" />
             </div>
   
-            {/* Advantages */}
             <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
               {advantages.map((advantage, index) => {
                 const Icon = advantage.icon;
@@ -79,7 +77,6 @@ import {
                         : ""
                     }`}
                   >
-                    {/* Icon */}
                     <div className="flex h-14 items-center justify-center text-blue-600">
                       <Icon
                         size={42}
@@ -87,12 +84,10 @@ import {
                       />
                     </div>
   
-                    {/* Title */}
                     <h3 className="mt-4 text-sm font-bold text-slate-950">
                       {advantage.title}
                     </h3>
   
-                    {/* Description */}
                     <p className="mt-3 max-w-[190px] text-[13px] leading-6 text-slate-600">
                       {advantage.description}
                     </p>

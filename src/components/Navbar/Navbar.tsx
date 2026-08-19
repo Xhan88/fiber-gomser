@@ -44,7 +44,6 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <nav className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-5 lg:px-10">
         
-        {/* Logo */}
         <NavLink to="/" className="flex shrink-0 items-center">
           <img
             src="/iconF/logo.png"
@@ -53,7 +52,6 @@ const Navbar = () => {
           />
         </NavLink>
 
-        {/* Desktop Navigation */}
         <div className="hidden items-center gap-7 lg:flex">
           {navLinks.map((link) => (
             <NavLink
@@ -82,7 +80,6 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Desktop CTA */}
         <a
           href="https://wa.me/"
           target="_blank"
@@ -93,7 +90,6 @@ const Navbar = () => {
           Cotizar ahora
         </a>
 
-        {/* Mobile Button */}
         <button
           type="button"
           onClick={() => setIsMenuOpen((prev) => !prev)}
@@ -104,7 +100,6 @@ const Navbar = () => {
         </button>
       </nav>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="border-t border-slate-100 bg-white px-5 py-6 shadow-lg lg:hidden">
           <div className="flex flex-col gap-5">

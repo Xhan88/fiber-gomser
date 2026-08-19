@@ -38,13 +38,9 @@ const Footer = () => {
   return (
     <footer className="bg-[#061b31] text-white">
 
-      {/* ===================================================== */}
-      {/* MOBILE FOOTER */}
-      {/* ===================================================== */}
 
       <div className="px-5 py-12 lg:hidden">
 
-        {/* Brand */}
         <div className="flex flex-col items-center text-center">
           <Link to="/">
             <img
@@ -59,7 +55,6 @@ const Footer = () => {
             para diferentes industrias en todo México.
           </p>
 
-          {/* Social */}
           <div className="mt-7 flex items-center gap-4">
             <a
               href="https://www.facebook.com/fiber.gomser.3"
@@ -83,13 +78,9 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* ===================================================== */}
-        {/* ACCORDIONS */}
-        {/* ===================================================== */}
 
         <div className="mt-12 overflow-hidden rounded-xl border border-white/15 bg-white/[0.025]">
 
-          {/* ENLACES */}
           <div className="border-b border-white/10">
             <button
               type="button"
@@ -189,7 +180,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* PRODUCTOS */}
           <div className="border-b border-white/10">
             <button
               type="button"
@@ -235,7 +225,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* INDUSTRIAS */}
           <div className="border-b border-white/10">
             <button
               type="button"
@@ -282,7 +271,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* SERVICIOS */}
           <div>
             <button
               type="button"
@@ -327,9 +315,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* ===================================================== */}
-        {/* CONTACT CARD */}
-        {/* ===================================================== */}
+
 
         <div className="mt-6 rounded-xl border border-white/15 bg-white/[0.025] p-6">
           <div className="flex items-center gap-4">
@@ -389,9 +375,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* ===================================================== */}
-        {/* HOURS CARD */}
-        {/* ===================================================== */}
+    
 
         <div className="mt-6 rounded-xl border border-white/15 bg-white/[0.025] p-6">
           <div className="flex items-center gap-4">
@@ -427,9 +411,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* ===================================================== */}
-        {/* MOBILE BOTTOM */}
-        {/* ===================================================== */}
+
 
         <div className="mt-10 border-t border-white/20 pt-7 text-center text-xs leading-6 text-white/60">
           <p>
@@ -446,15 +428,12 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* ===================================================== */}
-      {/* DESKTOP FOOTER */}
-      {/* ===================================================== */}
+  
 
       <div className="hidden lg:block">
         <div className="mx-auto max-w-[1440px] px-12 py-10 xl:px-16">
           <div className="grid grid-cols-[1.2fr_0.8fr_0.9fr_1.25fr_0.9fr] gap-10">
 
-            {/* Brand */}
             <div>
               <Link to="/">
                 <img
@@ -492,7 +471,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Links */}
             <div>
               <h3 className="text-xs font-bold uppercase">
                 Enlaces
@@ -509,7 +487,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Products */}
             <div>
               <h3 className="text-xs font-bold uppercase">
                 Productos
@@ -525,7 +502,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Contact */}
             <div>
               <h3 className="text-xs font-bold uppercase">
                 Contacto
@@ -571,7 +547,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Hours */}
             <div>
               <h3 className="text-xs font-bold uppercase">
                 Horario de atención
@@ -601,7 +576,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Desktop Bottom */}
           <div className="mt-10 flex items-center justify-between border-t border-white/15 pt-5 text-[11px] text-white/65">
             <p>
               © 2024 Fiber Gomser. Todos los derechos reservados.

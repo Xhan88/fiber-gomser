@@ -18,7 +18,6 @@ const ServiceCard = ({
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-[0_5px_20px_rgba(15,23,42,0.05)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(15,23,42,0.10)]">
       
-      {/* Image */}
       <div className="relative h-[190px] overflow-hidden">
         <img
           src={image}
@@ -26,7 +25,6 @@ const ServiceCard = ({
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
 
-        {/* Floating icon */}
         <div className="absolute -bottom-6 left-5 flex h-14 w-14 items-center justify-center rounded-lg border border-blue-100 bg-white text-blue-600 shadow-sm">
           <Icon
             size={28}
@@ -35,7 +33,6 @@ const ServiceCard = ({
         </div>
       </div>
 
-      {/* Content */}
       <div className="flex flex-1 flex-col px-5 pb-5 pt-10">
         <h3 className="text-lg font-extrabold text-slate-950">
           {title}

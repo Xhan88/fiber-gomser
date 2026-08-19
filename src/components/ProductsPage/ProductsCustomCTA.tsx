@@ -7,7 +7,6 @@ const ProductsCustomCTA = () => {
       <div className="mx-auto max-w-[1320px]">
         <div className="relative overflow-hidden rounded-xl bg-gradient-to-r from-blue-700 via-blue-700 to-[#06213b]">
           
-          {/* Background image */}
           <div className="absolute inset-y-0 right-0 hidden w-[45%] lg:block">
             <img
               src="/images/products/products.jpeg"
@@ -18,10 +17,8 @@ const ProductsCustomCTA = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-blue-700/60 to-transparent" />
           </div>
 
-          {/* Content */}
           <div className="relative z-10 grid grid-cols-1 items-center gap-7 px-7 py-8 md:grid-cols-[auto_1fr_auto] md:px-10 lg:px-12">
             
-            {/* Icon */}
             <div className="flex h-20 w-20 items-center justify-center rounded-full border border-blue-300/70 text-white">
               <Box
                 size={38}
@@ -29,7 +26,6 @@ const ProductsCustomCTA = () => {
               />
             </div>
 
-            {/* Text */}
             <div>
               <h2 className="text-2xl font-extrabold text-white">
                 ¿No encuentras lo que buscas?
@@ -41,7 +37,6 @@ const ProductsCustomCTA = () => {
               </p>
             </div>
 
-            {/* CTA */}
             <Link
               to="/contacto"
               className="inline-flex min-h-[46px] items-center justify-center gap-3 rounded-md bg-white px-7 text-sm font-bold text-blue-700 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-blue-50 hover:shadow-md"

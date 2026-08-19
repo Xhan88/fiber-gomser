@@ -50,7 +50,6 @@ import {
       <section className="bg-white px-6 py-14 lg:px-10 lg:py-16">
         <div className="mx-auto max-w-[1320px]">
           
-          {/* Heading */}
           <div className="mb-10 text-center">
             <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
               Industrias que atendemos
@@ -63,7 +62,6 @@ import {
             <div className="mx-auto mt-5 h-[2px] w-12 bg-blue-600" />
           </div>
   
-          {/* Industries */}
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8">
             {industries.map((industry, index) => {
               const Icon = industry.icon;
@@ -90,7 +88,6 @@ import {
               );
             })}
   
-            {/* Y más */}
             <div className="flex min-h-[105px] items-center justify-center px-4 text-center">
               <p className="text-sm font-bold text-slate-950">
                 Y más...

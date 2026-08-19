@@ -56,7 +56,6 @@ import ProductCard, {
         className="bg-[#f7f9fc] px-6 py-16 lg:px-10 lg:py-20"
       >
         <div className="mx-auto max-w-[1440px]">
-          {/* Heading */}
           <div className="mx-auto mb-10 max-w-3xl text-center">
             <span className="text-xs font-bold uppercase tracking-[0.15em] text-blue-600">
               Nuestros productos
@@ -72,7 +71,6 @@ import ProductCard, {
             </p>
           </div>
   
-          {/* Products Grid */}
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
             {products.map((product) => (
               <ProductCard

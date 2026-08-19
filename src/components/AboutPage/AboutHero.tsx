@@ -29,12 +29,10 @@ const AboutHero = () => {
             </span>
           </div>
 
-          {/* Label */}
           <span className="text-xs font-bold uppercase tracking-[0.18em] text-blue-400">
             Sobre nosotros
           </span>
 
-          {/* Title */}
           <h1 className="mt-3 text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-[58px]">
             Conoce más sobre
             <br />
@@ -43,7 +41,6 @@ const AboutHero = () => {
             </span>
           </h1>
 
-          {/* Description */}
           <p className="mt-5 max-w-[620px] text-sm leading-6 text-white/80 sm:text-base">
             Más de 15 años desarrollando soluciones textiles para diferentes
             industrias, combinando experiencia, calidad y atención personalizada.

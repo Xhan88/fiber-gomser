@@ -9,10 +9,8 @@ const Hero = () => {
         backgroundImage: "url('/images/heroempresa.png')",
       }}
     >
-      {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#03111f] via-[#03111f]/80 to-transparent" />
 
-      {/* Content */}
       <div className="relative z-10 mx-auto flex min-h-[430px] max-w-[1440px] items-center px-6 py-16 lg:min-h-[520px] lg:px-12 xl:px-16">
         <div className="max-w-[650px]">
           <h1 className="text-[38px] font-extrabold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-[64px]">

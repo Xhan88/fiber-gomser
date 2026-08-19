@@ -41,7 +41,6 @@ const AboutValues = () => {
       <div className="mx-auto max-w-[1320px]">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[52%_48%] lg:gap-12">
           
-          {/* Left */}
           <div>
             <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
               Nuestros valores
@@ -81,7 +80,6 @@ const AboutValues = () => {
             </div>
           </div>
 
-          {/* Right image */}
           <div className="h-[240px] overflow-hidden rounded-lg sm:h-[340px] lg:h-[300px]">
             <img
               src="/images/gallery/planta2.jpg"

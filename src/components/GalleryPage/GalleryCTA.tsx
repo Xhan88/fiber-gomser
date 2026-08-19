@@ -7,7 +7,6 @@ const GalleryCTA = () => {
       <div className="mx-auto max-w-[1320px]">
         <div className="relative overflow-hidden rounded-xl bg-[#05264a]">
           
-          {/* Background image */}
           <div className="absolute inset-0">
             <img
               src="/images/gallery/planta5.jpg"
@@ -18,10 +17,8 @@ const GalleryCTA = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-[#05264a] via-[#05264a]/95 to-[#021a35]/90" />
           </div>
 
-          {/* Content */}
           <div className="relative z-10 grid min-h-[145px] grid-cols-1 items-center gap-6 px-7 py-7 md:grid-cols-[auto_1fr_auto] lg:px-12">
             
-            {/* Icon */}
             <div className="flex h-[76px] w-[76px] items-center justify-center rounded-full bg-blue-500/20 text-white ring-1 ring-blue-400/20">
               <HandHelping
                 size={37}
@@ -29,7 +26,6 @@ const GalleryCTA = () => {
               />
             </div>
 
-            {/* Text */}
             <div>
               <h2 className="text-xl font-extrabold text-white md:text-2xl">
                 ¿Tienes un proyecto especial?
@@ -41,7 +37,6 @@ const GalleryCTA = () => {
               </p>
             </div>
 
-            {/* CTA */}
             <Link
               to="/contacto"
               className="inline-flex min-h-[48px] items-center justify-center gap-3 rounded-md bg-white px-8 text-sm font-bold text-[#05264a] shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-blue-50 hover:shadow-md"

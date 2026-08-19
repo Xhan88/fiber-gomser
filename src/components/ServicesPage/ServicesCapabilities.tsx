@@ -61,7 +61,6 @@ import {
       >
         <div className="mx-auto max-w-[1320px]">
           
-          {/* Heading */}
           <div className="mb-12 text-center">
             <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
               Nuestras capacidades
@@ -74,7 +73,6 @@ import {
             <div className="mx-auto mt-5 h-[2px] w-12 bg-blue-600" />
           </div>
   
-          {/* Cards */}
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
             {services.map((service) => (
               <ServiceCard

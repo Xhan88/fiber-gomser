@@ -19,7 +19,6 @@ const ProductCatalogCard = ({
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-[0_5px_20px_rgba(15,23,42,0.05)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(15,23,42,0.10)]">
       
-      {/* Imagen */}
       <div className="h-[210px] overflow-hidden">
         <img
           src={image}
@@ -28,10 +27,8 @@ const ProductCatalogCard = ({
         />
       </div>
 
-      {/* Content */}
       <div className="flex flex-1 gap-5 p-6">
         
-        {/* Icon */}
         <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
           <Icon
             size={24}
@@ -39,7 +36,6 @@ const ProductCatalogCard = ({
           />
         </div>
 
-        {/* Text */}
         <div className="flex flex-1 flex-col">
           <h3 className="text-lg font-bold text-slate-950">
             {title}

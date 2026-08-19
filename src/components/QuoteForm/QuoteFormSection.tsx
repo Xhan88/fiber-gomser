@@ -6,7 +6,6 @@ const QuoteFormSection = () => {
       id="contacto"
       className="relative overflow-hidden bg-[#061b31]"
     >
-      {/* Fondo decorativo derecho */}
       <div className="absolute inset-y-0 right-0 hidden w-[34%] lg:block">
         <img
           src="/images/products/fibras-relleno.jpg"
@@ -19,7 +18,6 @@ const QuoteFormSection = () => {
 
       <div className="relative z-10 mx-auto grid max-w-[1440px] grid-cols-1 gap-10 px-6 py-12 lg:grid-cols-[30%_46%_24%] lg:items-center lg:px-12 xl:px-16">
         
-        {/* Left content */}
         <div>
           <h2 className="text-3xl font-extrabold leading-tight text-white md:text-4xl">
             ¿Necesitas una cotización?
@@ -36,7 +34,6 @@ const QuoteFormSection = () => {
           </p>
         </div>
 
-        {/* Form */}
         <form className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           
           <input
@@ -117,7 +114,6 @@ const QuoteFormSection = () => {
           </button>
         </form>
 
-        {/* Empty column */}
         <div className="hidden lg:block" />
       </div>
     </section>

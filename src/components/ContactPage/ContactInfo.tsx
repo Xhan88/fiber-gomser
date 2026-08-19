@@ -18,7 +18,6 @@ import {
         <div className="mt-4 h-[2px] w-12 bg-blue-600" />
   
         <div className="mt-7 space-y-7">
-          {/* Phone */}
           <div className="flex gap-5">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
               <Phone size={22} />
@@ -42,7 +41,6 @@ import {
             </div>
           </div>
   
-          {/* Email */}
           <div className="flex gap-5">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
               <Mail size={22} />
@@ -66,7 +64,6 @@ import {
             </div>
           </div>
   
-          {/* Address */}
           <div className="flex gap-5">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
               <MapPin size={22} />
@@ -87,7 +84,6 @@ import {
             </div>
           </div>
   
-          {/* Plant */}
           <div className="flex gap-5">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
               <Factory size={22} />
@@ -108,7 +104,6 @@ import {
             </div>
           </div>
   
-          {/* WhatsApp */}
           <div className="flex gap-5">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
               <FaWhatsapp size={23} />
@@ -135,7 +130,6 @@ import {
           </div>
         </div>
   
-        {/* Quote box */}
         <div className="mt-8 flex gap-5 rounded-xl bg-[#f2f5fb] p-6">
           <FileText
             size={37}
