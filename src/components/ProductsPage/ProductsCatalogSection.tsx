@@ -81,7 +81,7 @@ import {
       <section className="bg-[#fafafa] px-6 py-16 lg:px-10 lg:py-20">
         <div className="mx-auto max-w-[1320px]">
           
-          <div className="mb-12 text-center">
+          <div data-aos="fade-up" className="mb-12 text-center">
             <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
               Nuestros productos
             </span>
@@ -93,7 +93,7 @@ import {
             <div className="mx-auto mt-5 h-[2px] w-12 bg-blue-600" />
           </div>
   
-          <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div data-aos="fade-up" className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
             {products.map((product) => (
               <ProductCatalogCard
                 key={product.id}

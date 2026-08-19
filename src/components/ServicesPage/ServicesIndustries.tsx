@@ -47,7 +47,7 @@ import {
   
   const ServicesIndustries = () => {
     return (
-      <section className="bg-white px-6 py-14 lg:px-10 lg:py-16">
+      <section data-aos="fade-up" className="bg-white px-6 py-14 lg:px-10 lg:py-16">
         <div className="mx-auto max-w-[1320px]">
           
           <div className="mb-10 text-center">

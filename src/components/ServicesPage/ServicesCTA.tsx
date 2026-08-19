@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ServicesCTA = () => {
   return (
-    <section className="bg-white px-6 pb-16 lg:px-10 lg:pb-20">
+    <section data-aos="fade-up" className="bg-white px-6 pb-16 lg:px-10 lg:pb-20">
       <div className="mx-auto max-w-[1320px]">
         <div className="relative overflow-hidden rounded-xl bg-[#05264a]">
           

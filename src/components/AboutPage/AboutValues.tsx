@@ -41,7 +41,7 @@ const AboutValues = () => {
       <div className="mx-auto max-w-[1320px]">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[52%_48%] lg:gap-12">
           
-          <div>
+          <div data-aos="fade-up">
             <span className="text-[11px] font-extrabold uppercase tracking-[0.14em] text-blue-600">
               Nuestros valores
             </span>
@@ -80,7 +80,7 @@ const AboutValues = () => {
             </div>
           </div>
 
-          <div className="h-[240px] overflow-hidden rounded-lg sm:h-[340px] lg:h-[300px]">
+          <div data-aos="fade-up" className="h-[240px] overflow-hidden rounded-lg sm:h-[340px] lg:h-[300px]">
             <img
               src="/images/gallery/planta2.jpg"
               alt="Equipo y procesos de Fiber Gomser"

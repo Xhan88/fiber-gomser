@@ -37,7 +37,7 @@ import {
   
   const GalleryStats = () => {
     return (
-      <section className="bg-white px-6 py-10 lg:px-10">
+      <section data-aos="fade-up" className="bg-white px-6 py-10 lg:px-10">
         <div className="mx-auto max-w-[1320px]">
           <div className="rounded-xl bg-[#f5f7fc] px-6 py-7 lg:px-10">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">

@@ -31,7 +31,7 @@ import {
   
   const UltrasonicHighlight = () => {
     return (
-      <section className="bg-[#f8f9fb] px-6 py-16 lg:px-10 lg:py-20">
+      <section data-aos="fade-up" className="bg-[#f8f9fb] px-6 py-16 lg:px-10 lg:py-20">
         <div className="mx-auto max-w-[1320px]">
           <div className="grid overflow-hidden rounded-xl border border-slate-200 bg-white shadow-[0_8px_30px_rgba(15,23,42,0.05)] lg:grid-cols-[50%_50%]">
             

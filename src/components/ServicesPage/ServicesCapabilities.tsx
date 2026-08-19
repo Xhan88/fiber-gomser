@@ -56,6 +56,7 @@ import {
   const ServicesCapabilities = () => {
     return (
       <section
+      data-aos="fade-up"
         id="capacidades"
         className="bg-white px-6 py-16 lg:px-10 lg:py-20"
       >

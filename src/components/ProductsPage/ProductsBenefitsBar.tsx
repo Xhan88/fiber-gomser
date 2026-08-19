@@ -41,7 +41,7 @@ import {
   
   const ProductsBenefitsBar = () => {
     return (
-      <section className="relative z-20 bg-[#f8f9fb] px-6 lg:px-10">
+      <section data-aos="fade-up" className="relative z-20 bg-[#f8f9fb] px-6 lg:px-10">
         <div className="mx-auto max-w-[1320px] lg:-mt-6">
           <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-[0_8px_28px_rgba(15,23,42,0.08)]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">

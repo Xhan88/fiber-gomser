@@ -3,21 +3,21 @@ import { Link } from "react-router-dom";
 
 const ProductsCustomCTA = () => {
   return (
-    <section className="bg-[#fafafa] px-6 pb-16 lg:px-10 lg:pb-20">
-      <div className="mx-auto max-w-[1320px]">
+    <section data-aos="fade-up" className="bg-[#fafafa] px-6 pb-16 lg:px-10 lg:pb-20">
+      <div data-aos="fade-up" className="mx-auto max-w-[1320px]">
         <div className="relative overflow-hidden rounded-xl bg-gradient-to-r from-blue-700 via-blue-700 to-[#06213b]">
           
-          <div className="absolute inset-y-0 right-0 hidden w-[45%] lg:block">
+          <div  className="absolute inset-y-0 right-0 hidden w-[45%] lg:block">
             <img
               src="/images/products/products.jpeg"
               alt=""
               className="h-full w-full object-cover object-center opacity-35"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-700 via-blue-700/60 to-transparent" />
+            <div  className="absolute inset-0 bg-gradient-to-r from-blue-700 via-blue-700/60 to-transparent" />
           </div>
 
-          <div className="relative z-10 grid grid-cols-1 items-center gap-7 px-7 py-8 md:grid-cols-[auto_1fr_auto] md:px-10 lg:px-12">
+          <div  className="relative z-10 grid grid-cols-1 items-center gap-7 px-7 py-8 md:grid-cols-[auto_1fr_auto] md:px-10 lg:px-12">
             
             <div className="flex h-20 w-20 items-center justify-center rounded-full border border-blue-300/70 text-white">
               <Box

@@ -42,7 +42,7 @@ import {
   const AboutFeatures = () => {
     return (
       <section className="bg-[#f8f9fb] px-6 pb-16 lg:px-10 lg:pb-20">
-        <div className="mx-auto max-w-[1320px]">
+        <div data-aos="fade-up" className="mx-auto max-w-[1320px]">
           <div className="overflow-hidden rounded-xl bg-[#06213b]">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
               {features.map((feature, index) => {

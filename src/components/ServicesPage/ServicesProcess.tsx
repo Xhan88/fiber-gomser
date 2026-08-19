@@ -54,7 +54,7 @@ import {
   
   const ServicesProcess = () => {
     return (
-      <section className="bg-[#f5f7fc] px-6 py-16 lg:px-10 lg:py-20">
+      <section data-aos="fade-up" className="bg-[#f5f7fc] px-6 py-16 lg:px-10 lg:py-20">
         <div className="mx-auto max-w-[1320px]">
           
           <div className="mb-12 text-center">

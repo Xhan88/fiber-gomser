@@ -13,7 +13,7 @@ const ContactHero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-[#021427]/95 via-[#021427]/75 to-[#021427]/10" />
 
       <div className="relative z-10 mx-auto flex min-h-[360px] max-w-[1440px] items-center px-6 py-14 lg:px-12 xl:px-16">
-        <div className="max-w-[650px]">
+        <div data-aos="fade-up" className="max-w-[650px]">
           
           <div className="flex items-center gap-3 text-sm font-medium">
             <Link
